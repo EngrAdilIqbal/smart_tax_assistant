@@ -135,17 +135,33 @@ Assistant Response: Gift tax guidance, applicable forms, submission deadlines.
 
 ```
 smart_tax_assistant/
+│
+├── data/
+│   └── capital_gains_rules.json       # Knowledge base (50+ tax rules)
+│
 ├── src/
-│   ├── pipeline.py       # Core pipeline for slot extraction, retrieval, prompt building, and LLM completion
-│   ├── slot_filling.py   # Extracts structured slots from user queries
-│   ├── retriever.py      # Retrieves relevant rules using embeddings
-│   ├── embeddings.py     # Handles embeddings creation, retrieval, and caching
-│   ├── prompt_builder.py # Builds structured prompts for LLM
-│   ├── llm_client.py     # Handles API calls to OpenAI LLM
-│   └── config.py         # Configuration: paths, model names
-├── run_demo.py           # Demo script for interactive queries
-├── requirements.txt
-└── README.md
+│   ├── __init__.py
+│   ├── config.py                      # Loads API keys & settings from .env
+│   ├── embeddings.py                  # Embed JSON rules into vector DB
+│   ├── retriever.py                   # Query vector DB to retrieve relevant tax rules
+│   ├── slot_filling.py                # Extract structured slots (asset, holding period, etc.)
+│   ├── prompt_builder.py              # Build final prompt for LLM (with slots + retrieved rules)
+│   ├── llm_client.py                  # Wrapper around LLM API (chat/completions)
+│   ├── pipeline.py                    # Orchestration: slot filling → retrieval → LLM response
+│   └── utils.py                       # Helper functions (logging, parsing, etc.)
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_slot_filling.py           # Unit tests for slot extraction
+│   ├── test_retriever.py              # Tests for vector DB retrieval
+│   ├── test_pipeline.py               # End-to-end pipeline test
+│   ├──conftest.py               
+│
+│
+├── requirements.txt                   # Dependencies (openai, chromadb, faiss, python-dotenv, pytest, etc.)
+├── run_demo.py                        # CLI script: run assistant with sample user queries
+├── .env                               # Stores API_KEY, MODEL_NAME, DB_PATH, etc. (not committed to GitHub)
+
 ```
 
 ---
