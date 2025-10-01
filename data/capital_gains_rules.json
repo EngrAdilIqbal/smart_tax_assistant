@@ -1,0 +1,362 @@
+[
+  {
+    "asset_type": "Listed Stock",
+    "holding_period": "< 1 year",
+    "tax_treatment": "Short-term capital gains",
+    "rate_rules": "30% flat on gains",
+    "forms": ["Form 84"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Listed Stock",
+    "holding_period": "1–2 years",
+    "tax_treatment": "Mid-term holding",
+    "rate_rules": "25% flat on gains",
+    "forms": ["Form 84"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Listed Stock",
+    "holding_period": ">= 2 years",
+    "tax_treatment": "Long-term capital gains",
+    "rate_rules": "20% on gains above exemption threshold",
+    "forms": ["Form 84"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Unlisted Stock",
+    "holding_period": "< 1 year",
+    "tax_treatment": "Major shareholder classification",
+    "rate_rules": "25% flat on gains",
+    "forms": ["Form 84", "Major Shareholder Report"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Unlisted Stock",
+    "holding_period": ">= 1 year",
+    "tax_treatment": "Long-term deduction applies",
+    "rate_rules": "20% after deductions",
+    "forms": ["Form 84", "Major Shareholder Report"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Venture Company Stock",
+    "holding_period": ">= 3 years",
+    "tax_treatment": "Preferential rate for venture investments",
+    "rate_rules": "10% flat",
+    "forms": ["Form 84"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Venture Company Stock",
+    "holding_period": "< 3 years",
+    "tax_treatment": "Normal SME taxation",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Real Estate (Residential)",
+    "holding_period": "< 2 years",
+    "tax_treatment": "Speculative short-term sale",
+    "rate_rules": "40% flat on gains",
+    "forms": ["Form 84-4"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Real Estate (Residential)",
+    "holding_period": "2–5 years",
+    "tax_treatment": "Mid-term holding",
+    "rate_rules": "30% flat on gains",
+    "forms": ["Form 84-4"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Real Estate (Residential)",
+    "holding_period": ">= 5 years",
+    "tax_treatment": "Long-term holding with deduction",
+    "rate_rules": "20% after deduction",
+    "forms": ["Form 84-4"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Real Estate (Commercial)",
+    "holding_period": "Any",
+    "tax_treatment": "Business property sale",
+    "rate_rules": "25% progressive",
+    "forms": ["Form 84-4", "Business Property Schedule"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Bond",
+    "holding_period": "< 1 year",
+    "tax_treatment": "Short-term bond gain",
+    "rate_rules": "15% flat",
+    "forms": ["Form 84-5"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Bond",
+    "holding_period": ">= 1 year",
+    "tax_treatment": "Exempt for government bonds",
+    "rate_rules": "Exempt unless speculative",
+    "forms": ["Form 84-5"],
+    "deadline": "Not required if exempt"
+  },
+  {
+    "asset_type": "Cryptocurrency",
+    "holding_period": "< 1 year",
+    "tax_treatment": "Digital asset short-term",
+    "rate_rules": "20% on gains above KRW 2.5M exemption",
+    "forms": ["Form 84-Digital"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Cryptocurrency",
+    "holding_period": ">= 1 year",
+    "tax_treatment": "Long-term crypto holding",
+    "rate_rules": "15% flat",
+    "forms": ["Form 84-Digital"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Cryptocurrency (Mining Income)",
+    "holding_period": "Any",
+    "tax_treatment": "Treated as business income",
+    "rate_rules": "Progressive rates up to 35%",
+    "forms": ["Form 84-Digital"],
+    "deadline": "Quarterly reporting required"
+  },
+  {
+    "asset_type": "Collectibles (Art, Antiques)",
+    "holding_period": "Any",
+    "tax_treatment": "Luxury asset disposal",
+    "rate_rules": "30% flat on gains",
+    "forms": ["Form 84-Collectibles"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Business Asset Sale",
+    "holding_period": "Any",
+    "tax_treatment": "Sale of operating business asset",
+    "rate_rules": "25% flat, special SME deductions may apply",
+    "forms": ["Form 84-Business"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Farmland",
+    "holding_period": ">= 8 years",
+    "tax_treatment": "Exemption under special farmland rule",
+    "rate_rules": "Exempt if criteria met",
+    "forms": ["Form 84-Farmland"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Farmland",
+    "holding_period": "< 8 years",
+    "tax_treatment": "Standard agricultural sale",
+    "rate_rules": "10% flat",
+    "forms": ["Form 84-Farmland"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "ETF",
+    "holding_period": "< 1 year",
+    "tax_treatment": "Short-term fund gain",
+    "rate_rules": "15% flat",
+    "forms": ["Form 84-Fund"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "ETF",
+    "holding_period": ">= 1 year",
+    "tax_treatment": "Fund holding",
+    "rate_rules": "10% flat",
+    "forms": ["Form 84-Fund"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Mutual Fund",
+    "holding_period": "Any",
+    "tax_treatment": "Collective investment scheme",
+    "rate_rules": "10% flat on distributions",
+    "forms": ["Form 84-Fund"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Foreign Stock",
+    "holding_period": "Any",
+    "tax_treatment": "Foreign-listed equity sale",
+    "rate_rules": "20% flat after deductions",
+    "forms": ["Form 84-Foreign"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Foreign Real Estate",
+    "holding_period": "Any",
+    "tax_treatment": "Overseas property sale",
+    "rate_rules": "20% flat, foreign tax credit applicable",
+    "forms": ["Form 84-Foreign"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Derivatives (Options)",
+    "holding_period": "Any",
+    "tax_treatment": "Derivative transaction",
+    "rate_rules": "30% flat",
+    "forms": ["Form 84-Derivatives"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Derivatives (Futures)",
+    "holding_period": "Any",
+    "tax_treatment": "Speculative futures trading",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84-Derivatives"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "NFT",
+    "holding_period": "Any",
+    "tax_treatment": "Digital collectible asset",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84-Digital"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Inheritance",
+    "holding_period": "N/A",
+    "tax_treatment": "Inheritance transfer",
+    "rate_rules": "Exempt from capital gains, subject to inheritance tax",
+    "forms": ["Inheritance Tax Form"],
+    "deadline": "6 months after transfer"
+  },
+  {
+    "asset_type": "Gifted Shares",
+    "holding_period": "N/A",
+    "tax_treatment": "Gift tax applies, not capital gains",
+    "rate_rules": "Gift tax rates 10–50%",
+    "forms": ["Gift Tax Form"],
+    "deadline": "3 months after transfer"
+  },
+  {
+    "asset_type": "SME Shares",
+    "holding_period": ">= 5 years",
+    "tax_treatment": "Special SME exemption",
+    "rate_rules": "Reduced 50% capital gains tax",
+    "forms": ["Form 84-SME"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "SME Shares",
+    "holding_period": "< 5 years",
+    "tax_treatment": "Normal unlisted treatment",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "International Treaty Stock Sale",
+    "holding_period": "Any",
+    "tax_treatment": "Subject to double tax treaty",
+    "rate_rules": "May reduce to 10% or exempt",
+    "forms": ["Form 84", "Foreign Tax Credit Form"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Loss Carryforward",
+    "holding_period": "N/A",
+    "tax_treatment": "Loss offset provision",
+    "rate_rules": "Capital losses offset against future gains (5 years)",
+    "forms": ["Form 84-Loss"],
+    "deadline": "Applied in next reporting cycle"
+  },
+  {
+    "asset_type": "Employee Stock Options",
+    "holding_period": "Upon exercise",
+    "tax_treatment": "Treated as employment income",
+    "rate_rules": "Progressive up to 35%",
+    "forms": ["Form 84-ESO"],
+    "deadline": "By payroll cycle"
+  },
+  {
+    "asset_type": "Convertible Bonds",
+    "holding_period": "Any",
+    "tax_treatment": "Treated as capital gains on conversion",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84-CB"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Private Equity",
+    "holding_period": "< 5 years",
+    "tax_treatment": "PE short-term disposal",
+    "rate_rules": "30% flat",
+    "forms": ["Form 84-PE"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Private Equity",
+    "holding_period": ">= 5 years",
+    "tax_treatment": "PE long-term disposal",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84-PE"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Partnership Interest",
+    "holding_period": "Any",
+    "tax_treatment": "Pass-through taxation",
+    "rate_rules": "Taxed at partner’s individual rate",
+    "forms": ["Form 84-Partnership"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Trust Beneficial Interest",
+    "holding_period": "Any",
+    "tax_treatment": "Treated as financial asset",
+    "rate_rules": "15% flat",
+    "forms": ["Form 84-Trust"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Agricultural Cooperative Shares",
+    "holding_period": ">= 3 years",
+    "tax_treatment": "Special exemption",
+    "rate_rules": "Exempt",
+    "forms": ["Form 84-Coop"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Agricultural Cooperative Shares",
+    "holding_period": "< 3 years",
+    "tax_treatment": "Normal unlisted treatment",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84-Coop"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Overseas Mutual Fund",
+    "holding_period": "Any",
+    "tax_treatment": "Foreign investment vehicle",
+    "rate_rules": "20% flat after deductions",
+    "forms": ["Form 84-ForeignFund"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Crowdfunding Equity",
+    "holding_period": ">= 3 years",
+    "tax_treatment": "Startup incentive",
+    "rate_rules": "Exempt",
+    "forms": ["Form 84-Crowdfunding"],
+    "deadline": "May 1–31 following year"
+  },
+  {
+    "asset_type": "Crowdfunding Equity",
+    "holding_period": "< 3 years",
+    "tax_treatment": "Normal unlisted treatment",
+    "rate_rules": "20% flat",
+    "forms": ["Form 84-Crowdfunding"],
+    "deadline": "May 1–31 following year"
+  }
+]
