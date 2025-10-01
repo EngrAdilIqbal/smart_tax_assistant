@@ -203,4 +203,5 @@ smart_tax_assistant/
 
 **Adil Iqbal**
 Senior Machine Learning Engineer
+
 Expertise in applied NLP, LLMs, AgenticAI, embeddings, retrieval systems, and building structured AI pipelines suitable for enterprise applications.
